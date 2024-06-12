@@ -14,9 +14,10 @@
     <title>Document</title>
   </head>
   <body>
+    <!--Referencia: https://www.behance.net/gallery/37479693/FREE-PSD-Programmer-Professional-Resume-->
     <div class="container">
       <main>
-        <header>
+        <header class="header">
           <h1>Raquel da Fonseca {</h1>
           <div class="comentarios">
             <span>// Desenvolvedora Front-end</span>
@@ -31,21 +32,110 @@
             </span>
           </div>
         </header>
-        <sectoin class="sobreMim">
-          <h2>Sobre mim {</h2>
-          <div>
-            <p>
-              Meu primeiro contato com programação foi na faculdade onde aprendi
-              a programar um SUDOKU em Fortran 95, sim você leu certo. Desde
-              então procurei por mim mesma sobre programação com vídeos, cursos
-              gratuitos e bootcamps. Hoje sou desenvolvedora pela
-              <a href="http://fminfo.net">Fm Informática</a> onde atuo fazendo o
-              design e a programação de sites e ecommerces.
-            </p>
-          </div>
-          <p class="h2">}</p>
-        </sectoin>
       </main>
+      <sectoin class="section">
+        <h2>sobre-mim {</h2>
+        <div>
+          <p>
+            Meu primeiro contato com programação foi na faculdade onde aprendi a
+            programar um SUDOKU em Fortran 95, sim você leu certo. Desde então
+            procurei por mim mesma sobre programação com vídeos, cursos
+            gratuitos e bootcamps. Hoje sou desenvolvedora pela
+            <a target="_blank" href="http://fminfo.net">Fm Informática</a>
+            onde atuo fazendo o design e a programação de sites e e-commerces.
+          </p>
+          <br />
+          <p class="h2">}</p>
+        </div>
+      </sectoin>
+      <section class="section">
+        <h2>projetos {</h2>
+        <p>Estes são alguns dos meus projetos finalizados:</p>
+        <div class="content">
+          <div class="card">
+            <div class="image">
+              <img src="/imagens/giustoklein.webp" alt="Site giustoklein.com" />
+            </div>
+            <div class="info">
+              <h4>Giusto & Klein Advocacia</h4>
+              <p>
+                Este é um site institucional <br />visite em:
+                <a href="https://giustoklein.com/">giustoklein.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img
+                src="/imagens/fenixUnisaoJose.webp"
+                alt="Site giustoklein.com"
+              />
+            </div>
+            <div class="info">
+              <h4>Fênix UniSãoJosé</h4>
+              <p>
+                Imagem feita no Adobe Illustration para escudo de atlética
+                universitário<br />visite em:
+                <a id="open" href="#">Veja a imagem ampliada</a>
+              </p>
+            </div>
+            <div id="modal" class="modal">
+              <span id="close" class="close">&times;</span>
+              <img
+                id="modalImage"
+                class="modal-content"
+                src="/imagens/fenixUnisaoJoseAmpliada.webp"
+                alt="Fênix ampliada"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="/imagens/klfitness.webp" alt="Site klfitness" />
+            </div>
+            <div class="info">
+              <h4>klfitness</h4>
+              <p>
+                Este é um site E-commerce <br />visite em:
+                <a target="_blank" href="https://www.klfitness.com.br/"
+                  >klfitness.com.br/</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="h2">}</p>
+      </section>
+      <section class="section">
+        <h2>contato-e-redes-sociais {</h2>
+        <div>
+          <div class="redesSociais">
+            <p>Github:</p>
+            <a target="_blank" href="https://github.com/RaquelDFS">RaquelDFS</a>
+            <p>;</p>
+          </div>
+          <div class="redesSociais">
+            <p>Discord:</p>
+            <a href="https://discord.gg/6dvVAbYW" target="_blank">Rafo #4099</a>
+            <p>;</p>
+          </div>
+          <div class="redesSociais">
+            <p>Email:</p>
+            <a href="mailto:raquelfonseca.rf@gmail.com"
+              >raquelfonseca.rf@gmail.com</a
+            >
+            <p>;</p>
+            <span>//Este também é o meu pix :D</span>
+          </div>
+        </div>
+        <p class="h2">}</p>
+      </section>
+      <footer class="footer">
+        <span>//Desenvolvido por Raquel da Fonseca</span>
+        <span>//2024</span>
+        <span>//projeto SENAI FrontEnd</span>
+      </footer>
     </div>
+    <script src="/JS/script.js"></script>
   </body>
 </html>
